@@ -55,4 +55,4 @@ $ python manage.py runserver
 
 
 ### Thanks
--  maen08
+-  [maen08](https://github.com/maen08/)
