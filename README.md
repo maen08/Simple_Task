@@ -7,7 +7,7 @@ Assigned to build a To-do app API with these features:
 - User can categorize tasks (add task into a group)
 - List all user
 
-## Run a project
+## Install the project
 - Clone a repo and install all dependencies
 ```
 $git clone https://github.com/maen08/Simple_Task.git
@@ -17,31 +17,25 @@ $cd Simple_Task
 $pip install -r requirements.txt 
 ```
 
-
-
-
-
-# ToDo task
-
 ## Run the project
+```
+$ cd todo_app
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py runserver
+```
 
-## Run the project
-
-- install all dependencies:
-> cd todo_app
-> pip install -r requirements.txt
-
-- run the project:
-> python manage.py makemigrations
-> python manage.py migrate
-> python manage.py runserver
+- Project will be running on 127.0.0.1:8000
 
 
 ## Endpoints
-- endpoints:
+API Endpoints:
 
-/user 
-/accounts/signup
-/accounts/login
-/
+- /user              => shows all registered users
+- /accounts/signup   => signup endpoint 
+- /accounts/login    => login endpoint
+- /                  => list all tasks
+- /admin             => admin page (create a super user to login as admin)
 
+
+## 
