@@ -31,11 +31,28 @@ $ python manage.py runserver
 ## Endpoints
 API Endpoints:
 
-- /user              => shows all registered users
-- /accounts/signup   => signup endpoint 
-- /accounts/login    => login endpoint
-- /                  => list all tasks
-- /admin             => admin page (create a super user to login as admin)
+- /user                  GET                => shows all registered users
+- /accounts/signup       POST               => signup endpoint  
+- /accounts/login        POST               => login endpoint
+- /                      GET                => list all tasks
+- /                      POST               => create a task
+- /admin                 POST               => admin page (create a super user to login as admin)
 
 
-## 
+## NB:
+- Dont forget to create a superuser so as you can access the database panel 
+AKA admin panel hahaha ):
+
+- Stop the server then create a superuser
+```
+$ python manage.py createsuperuser [ANY-NAME-HERE]
+```
+
+- Start back the server
+```
+$ python manage.py runserver
+```
+
+
+### Thanks
+-  maen08
