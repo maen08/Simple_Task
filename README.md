@@ -10,11 +10,11 @@ Assigned to build a To-do app API with these features:
 ## Install the project
 - Clone a repo and install all dependencies
 ```
-$git clone https://github.com/maen08/Simple_Task.git
+$ git clone https://github.com/maen08/Simple_Task.git
 
-$cd Simple_Task
+$ cd Simple_Task
 
-$pip install -r requirements.txt 
+$ pip install -r requirements.txt 
 ```
 
 ## Run the project
